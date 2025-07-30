@@ -40,6 +40,13 @@ button {
     font-weight: 700;
 }
 
+button:hover {
+    font-size: 14px;
+    transition: 200ms;
+    background-color: #000;
+    color: white;
+}
+
 .hero {
     padding: 200px 0px 0px 0px;
     text-align: center;
@@ -305,6 +312,10 @@ align-self: stretch;
 border-radius: 10px;
 border: 1px solid #D6DDED;
 background: #FFF;
+}
+
+.contact .right form textarea {
+    columns: 50px;
 }
 
 footer {
