@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background: #F5F8FF;
+}
+
 header {
     /* width: 100%; */
     background-image: url('./Assets/Hero-bg.png');
@@ -134,3 +138,92 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
+
+
+/* Review */
+
+.review {
+    /* width: 1140px; */
+    text-align: center;
+}
+
+.review .rev-box{
+    /* width: 1140px; */
+    text-align: center;
+}
+
+.review .rev-box .top h2 {
+color: #252432;
+text-align: center;
+font-family: Raleway;
+font-size: 42px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+
+.review .rev-box .down {
+    display: flex;
+    justify-content: center;
+    /* background-color: #4E47FF; */
+}
+
+/* .review .rev-box .down {
+    background-color: white;
+    padding: 20px;
+} */
+
+.review .rev-box .down .rev-usr {
+    border-radius: 14px;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.review .rev-box .down .rev-usr .icons {
+    display: flex;
+    padding: 10px 0px;
+}
+
+.review .rev-box .down .rev-usr h2 {
+    display: flex;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.review .rev-box .down .rev-usr p {
+    font-size: 16px;
+    padding: 10px 0px;
+    text-align: left;
+}
+
+.review .rev-box .down .rev-usr .reviwer {
+    display: flex;
+    /* padding: 0px 10px; */
+}
+
+.review .rev-box .down .rev-usr .reviwer .left img{
+    border-radius: 200px;
+    /* height: 20px; */
+    text-align: left;
+    padding-right: 15px;
+}
+
+.review .rev-box .down .rev-usr .reviwer .right {
+    display: flex;
+    flex-direction: column;
+}
+
+.review .rev-box .down .rev-usr .reviwer .right h2 {
+    font-size: 16px;
+    font-family: Inter;
+    color: #00000080;
+}
+.review .rev-box .down .rev-usr .reviwer .right p {
+    font-size: 16px;
+    margin-top: -8px;
+    font-family: Inter;
+    color: #00000080;
+}
+
