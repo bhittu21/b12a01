@@ -81,3 +81,56 @@ button {
 .action .right img {
     border-radius: 48px;
 }
+
+.usr {
+    margin: 100px 0px;
+    /* width: 1140px; */
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+}
+
+.usr .box {
+    background-color: #4E47FF1A;
+    /* text-align: center; */
+    width: 1140px;
+
+    text-align: center;
+    padding: 50px 0px;
+    border-radius: 24px;
+}
+
+.usr .box .top h2 {
+    color: #252432;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;   
+}
+
+.usr .box .down {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.usr .box .down .number h2{
+    color: #4E47FF;
+    font-family: Inter;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;   
+}
+
+.usr .box .down .number p {
+color: rgba(0, 0, 0, 0.50);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
