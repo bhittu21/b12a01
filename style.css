@@ -306,3 +306,37 @@ border-radius: 10px;
 border: 1px solid #D6DDED;
 background: #FFF;
 }
+
+footer {
+    background-color: white;
+    /* text-align: center; */
+    padding: 100px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer h1 {
+    color: #4E47FF;
+    font-size: 100px;
+}
+
+footer p {
+    color: #8987A1;
+    text-align: center;
+}
+
+footer ul {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px;
+
+}
+
+footer ul li {
+    list-style: none;
+    padding: 0px 10px;
+    color: #8987A1;
+    text-align: center;
+}
